@@ -35,7 +35,7 @@ Mobile
 ### Links
 
 - Solution URL: [GitHub](https://github.com/avpprog/product-preview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://productpreview-xi.vercel.app/)
 
 ## My process
 
