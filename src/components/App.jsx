@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <div className="card">
-        <div>
+        <div className="imageSection">
           <img
             className="prodImgMobile"
             src={imageProductMobile}
@@ -18,24 +18,26 @@ function App() {
             alt="product image"
           />
         </div>
-        <div className="tag">Perfume</div>
-        <div className="productName">Gabrielle Essence Eau De Parfum</div>
-        <div className="description">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
+        <div className="textSection">
+          <div className="tag">Perfume</div>
+          <div className="productName">Gabrielle Essence Eau De Parfum</div>
+          <div className="description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </div>
+          <div className="priceSection">
+            <div className="currentPrice">$149.99</div>
+            <div className="originalPrice">$169.99</div>
+          </div>
+          <button className="addToCartButton">
+            <img
+              className="cartIcon"
+              src="../src/assets/icon-cart.svg"
+              alt="cart icon"
+            />{" "}
+            Add to Cart
+          </button>
         </div>
-        <div className="priceSection">
-          <div className="currentPrice">$149.99</div>
-          <div className="originalPrice">$169.99</div>
-        </div>
-        <button className="addToCartButton">
-          <img
-            className="cartIcon"
-            src="../src/assets/icon-cart.svg"
-            alt="cart icon"
-          />{" "}
-          Add to Cart
-        </button>
       </div>
 
       <div class="attribution">
